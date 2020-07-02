@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: row wrap;
+        }
+
+        .button {
+            border-style: groove;
+            border-radius: 9px;
+            color: black;
+            padding: 16px 64px;
+            margin: 12px 24px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            background-color: white;
+        }
+        .button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+    </style>
+</head>
+
+<body style="padding: 0;">
+    <header style="margin-top: 40vh; text-align: center;">
+        <h1 style="font-size: 70px">Emil Rugenstein</h1>
+    </header>
+    <section class="center">
+        <button class="button" onclick="location.href = 'about.html'">Who I am</button>
+        <button class="button" onclick="location.href = 'projects.html'">What I do</button>
+    </section>
+
+</body>
+
+</html>
